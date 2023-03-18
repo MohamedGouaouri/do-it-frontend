@@ -1,6 +1,4 @@
 #root {
-  /* max-width: 1280px; */
-  /* margin: 0 auto; */
   text-align: center;
   min-width: 100vw;
   min-height: 100vh;
@@ -9,8 +7,8 @@
   grid-template-rows: repeat(4, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  overflow: auto;
-  scroll-behavior: auto;
+  overflow: hidden;
+  scroll-behavior: smooth;
 }
 
 

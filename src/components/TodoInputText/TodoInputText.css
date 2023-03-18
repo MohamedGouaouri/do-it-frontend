@@ -1,0 +1,39 @@
+.todo-input {
+    min-width: 80%;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    display: flex;
+
+    margin-bottom: 5rem;
+}
+
+.todo-input input {
+    flex-grow: 1;
+    /* The input will take up 80% of the size */
+    margin-right: 10px;
+    /* Add some space between the input and the button */
+}
+
+.todo-input button {
+    flex-grow: 0;
+    /* The button won't grow, it will take up the remaining space */
+    width: 5rem;
+    /* The button will take up 20% of the size */
+    padding: 5px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #8497ff;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.todo-input button:hover {
+    background-color: #585fe2;
+    border-color: #585fe2;
+}
